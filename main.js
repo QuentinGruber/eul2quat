@@ -1,3 +1,4 @@
+// Original code from GuinnessRules
 export default function Eul2Quat(angle) {
   // Assuming the angles are in radians.
   const heading = angle[0],
