@@ -1,0 +1,19 @@
+{
+  "name": "eul2quat",
+  "version": "1.0.0",
+  "description": "Original code from GuinnessRules",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinGruber/eul2quat.git"
+  },
+  "author": "GuinessRules",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuentinGruber/eul2quat/issues"
+  },
+  "homepage": "https://github.com/QuentinGruber/eul2quat#readme"
+}
