@@ -1,5 +1,5 @@
 // Original code from GuinnessRules
-export default function Eul2Quat(angle) {
+function Eul2Quat(angle) {
   // Assuming the angles are in radians.
   const heading = angle[0],
     attitude = angle[1],
@@ -18,3 +18,4 @@ export default function Eul2Quat(angle) {
   const qx = c1 * s2 * c3 - s1 * c2 * s3;
   return [qx, qy, -qz, qw];
 }
+module.exports = Eul2Quat;
